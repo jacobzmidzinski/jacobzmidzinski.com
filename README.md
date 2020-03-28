@@ -1,6 +1,6 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 
-[![jacobzmidzinski](https://circleci.com/gh/acobzmidzinski/jacobzmidzinski.com.svg?style=svg)](https://circleci.com/gh/jacobzmidzinski/jacobzmidzinski.com)
+[![CircleCI](https://circleci.com/gh/jacobzmidzinski/jacobzmidzinski.com.svg?style=svg)](https://circleci.com/gh/jacobzmidzinski/jacobzmidzinski.com)
 
 <p align="center">
   <a href="https://www.gatsbyjs.org">
