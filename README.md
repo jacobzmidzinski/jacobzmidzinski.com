@@ -1,4 +1,7 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
+
+[![jacobzmidzinski](https://circleci.com/gh/acobzmidzinski/jacobzmidzinski.com.svg?style=svg)](https://circleci.com/gh/jacobzmidzinski/jacobzmidzinski.com)
+
 <p align="center">
   <a href="https://www.gatsbyjs.org">
     <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
