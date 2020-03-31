@@ -1,15 +1,13 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Jacob Zmidzinski`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Jacob Zmidzinski`,
+      summary: `Team Leader and Mobile Developer`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
-    social: {
-      twitter: `kylemathews`,
-    },
+    siteUrl: `https://jacobs-blog-project.firebaseapp.com/`,
+    twitter: `https://twitter.com/jacobzmidzinski`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
