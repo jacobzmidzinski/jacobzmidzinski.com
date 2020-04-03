@@ -1,18 +1,15 @@
 import React, { Component } from "react"
 
-import firebaseIcon from "../../content/images/firebase.png"
-import gatsbyIcon from "../../content/images/gatsby.png"
-
 import {
   FaTwitter as Twitter,
   FaGithub as GitHub,
   FaLinkedin as LinkedIn,
 } from "react-icons/fa"
 
-export default class Footer extends Component {
+export default class SocialFooter extends Component {
   render() {
     return (
-      <footer className="footer container">
+      <footer className="footer">
         <div>
           <a
             target="__blank"

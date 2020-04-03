@@ -17,12 +17,12 @@
   
     a {
       font-weight: 400;
-      color: rgba(0, 0, 0, 0.6);
+      color: rgba(0, 0, 0, 0.7);
       display: block;
       margin-right: 1.5rem;
   
       &:hover {
-        color: rgba(0, 0, 0, 0.8);
+        color: rgba(0, 0, 0, 0.85);
       }
     }
   
@@ -32,3 +32,34 @@
       margin-bottom: 0;
     }
   }
+
+.avatar {
+    height: 64px;
+    width: 64px;
+    margin-bottom: 0;
+}
+
+.brand {
+  a {
+    display: flex;
+    align-items: center;
+    color: #333;
+    margin-right: 0;
+    font-weight: 500;
+    font-size: 1.15rem;
+    color: rgba(0, 0, 0, 0.7);
+    text-decoration: none;
+
+    &:hover,
+    &:focus {
+      color: rgba(0, 0, 0, 0.85);;
+    }
+  }
+
+  .text {
+    font-size: 1.35rem;
+    font-family: Helvetica Neue, 'Roboto', -apple-system, BlinkMacSystemFont, Helvetica, Arial,
+    sans-serif;
+    font-weight: 500;
+  } 
+}
