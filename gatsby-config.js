@@ -60,13 +60,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `Jacob Zmidzinski`,
+        short_name: `Jacob Zmidzinski`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `content/images/gatsby.png`,
+        icon: `content/images/favicon.png`,
       },
     },
     {
