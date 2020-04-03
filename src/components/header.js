@@ -11,7 +11,7 @@ const Header = ({ title }) => {
     query {
       placeholderImage: file(relativePath: { eq: "avatar.png" }) {
         childImageSharp {
-          fixed(width: 40) {
+          fixed(width: 64) {
             ...GatsbyImageSharpFixed_noBase64
           }
         }
