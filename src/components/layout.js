@@ -1,16 +1,15 @@
 import React from "react"
-import SocialFooter from "../components/footer"
 import Header from "./header"
+import AppStoreButton from "./appStore-button"
+import SocialFooter from "../components/footer"
 import "../styles/components/layout.scss"
 
-import { rhythm, scale } from "../utils/typography"
+import { rhythm } from "../utils/typography"
 
 const Layout = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
   let header
-  header = (
-    <Header title={title} />
-  )
+  header = <Header title={title} />
   return (
     <div
       style={{
@@ -21,7 +20,9 @@ const Layout = ({ location, title, children }) => {
       }}
     >
       <header>{header}</header>
-      <main>{children}</main>
+      <main>
+        <AppStoreButton appName="Trailers Database"/>
+      </main>
       <SocialFooter></SocialFooter>
     </div>
   )
