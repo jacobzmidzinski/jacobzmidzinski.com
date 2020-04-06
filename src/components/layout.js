@@ -1,6 +1,5 @@
 import React from "react"
 import Header from "./header"
-import AppStoreButton from "./appStore-button"
 import SocialFooter from "../components/footer"
 import "../styles/components/layout.scss"
 
@@ -20,9 +19,7 @@ const Layout = ({ location, title, children }) => {
       }}
     >
       <header>{header}</header>
-      <main>
-        <AppStoreButton appName="Trailers Database"/>
-      </main>
+      <main>{children}</main>
       <SocialFooter></SocialFooter>
     </div>
   )

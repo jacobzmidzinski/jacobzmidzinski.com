@@ -4,26 +4,24 @@ const { createFilePath } = require(`gatsby-source-filesystem`)
 exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions
 
+  const pagePage = path.resolve(`./src/templates/page.js`)
   const blogPost = path.resolve(`./src/templates/blog-post.js`)
   const result = await graphql(
     `
-      {
-        allMarkdownRemark(
-          sort: { fields: [frontmatter___date], order: DESC }
-          limit: 1000
-        ) {
-          edges {
-            node {
-              fields {
-                slug
-              }
-              frontmatter {
-                title
-              }
+    {
+      allMarkdownRemark {
+        edges {
+          node {
+            frontmatter {
+              template
+            }
+            fields {
+              slug
             }
           }
         }
       }
+    }
     `
   )
 
@@ -32,21 +30,29 @@ exports.createPages = async ({ graphql, actions }) => {
   }
 
   // Create blog posts pages.
-  const posts = result.data.allMarkdownRemark.edges
+  const edges = result.data.allMarkdownRemark.edges
 
-  posts.forEach((post, index) => {
-    const previous = index === posts.length - 1 ? null : posts[index + 1].node
-    const next = index === 0 ? null : posts[index - 1].node
+  edges.forEach((edge, index) => {
 
-    createPage({
-      path: post.node.fields.slug,
-      component: blogPost,
-      context: {
-        slug: post.node.fields.slug,
-        previous,
-        next,
-      },
-    })
+    if (edge.node.frontmatter.template === 'page') {
+      createPage({
+        path: edge.node.fields.slug,
+        component: pagePage,
+        context: {
+          slug: edge.node.fields.slug,
+        },
+      })
+    }
+
+    if (edge.node.frontmatter.template === 'post') {
+      createPage({
+        path: edge.node.fields.slug,
+        component: blogPost,
+        context: {
+          slug: edge.node.fields.slug,
+        },
+      })
+    }
   })
 }
 

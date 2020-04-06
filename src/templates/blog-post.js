@@ -5,92 +5,64 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm, scale } from "../utils/typography"
 
-const BlogPostTemplate = ({ data, pageContext, location }) => {
-  const post = data.markdownRemark
-  const siteTitle = data.site.siteMetadata.title
-  const { previous, next } = pageContext
+export default class PostTemplate extends Component {
+  render() {
+    const { slug } = this.props.pageContext
+    const postNode = this.props.data.markdownRemark
+    const post = postNode.frontmatter
 
-  return (
-    <Layout location={location} title={siteTitle}>
-      <SEO
-        title={post.frontmatter.title}
-        description={post.frontmatter.description || post.excerpt}
-      />
-      <article>
-        <header>
-          <h1
-            style={{
-              marginTop: rhythm(1),
-              marginBottom: 0,
-            }}
-          >
-            {post.frontmatter.title}
-          </h1>
-          <p
-            style={{
-              ...scale(-1 / 5),
-              display: `block`,
-              marginBottom: rhythm(1),
-            }}
-          >
-            {post.frontmatter.date}
-          </p>
-        </header>
-        <section dangerouslySetInnerHTML={{ __html: post.html }} />
-        <hr
-          style={{
-            marginBottom: rhythm(1),
-          }}
-        />
-      </article>
+    if (!post.id) {
+      post.id = slug
+    }
 
-      <nav>
-        <ul
-          style={{
-            display: `flex`,
-            flexWrap: `wrap`,
-            justifyContent: `space-between`,
-            listStyle: `none`,
-            padding: 0,
-          }}
-        >
-          <li>
-            {previous && (
-              <Link to={previous.fields.slug} rel="prev">
-                ← {previous.frontmatter.title}
-              </Link>
-            )}
-          </li>
-          <li>
-            {next && (
-              <Link to={next.fields.slug} rel="next">
-                {next.frontmatter.title} →
-              </Link>
-            )}
-          </li>
-        </ul>
-      </nav>
-    </Layout>
-  )
+    if (!post.category_id) {
+      post.category_id = config.postDefaultCategoryID
+    }
+
+    return (
+      <Layout>
+        <Helmet>
+          <title>{`${post.title} – ${config.siteTitle}`}</title>
+        </Helmet>
+        <SEO postPath={slug} postNode={postNode} postSEO />
+        <article className="single container">
+            <div className="flex">
+              <h1>{post.title}</h1>
+              <div className="post-meta">
+                <img src={tania} className="avatar-small" alt="Tania" />
+                <a
+                  className="github-link"
+                  href={githubLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Edit ✏️
+                </a>
+              </div>
+              <PostTags tags={post.tags} />
+            </div>
+          <div className="post" dangerouslySetInnerHTML={{ __html: postNode.html }} />
+        </article>
+        <UserInfo config={config} />
+      </Layout>
+    )
+  }
 }
 
-export default BlogPostTemplate
-
+/* eslint no-undef: "off" */
 export const pageQuery = graphql`
   query BlogPostBySlug($slug: String!) {
-    site {
-      siteMetadata {
-        title
-      }
-    }
     markdownRemark(fields: { slug: { eq: $slug } }) {
-      id
-      excerpt(pruneLength: 160)
       html
+      timeToRead
+      excerpt
       frontmatter {
         title
-        date(formatString: "MMMM DD, YYYY")
-        description
+        slug
+        template
+      }
+      fields {
+        slug
       }
     }
   }

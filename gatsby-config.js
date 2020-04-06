@@ -15,6 +15,13 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
+        path: `${__dirname}/content/images`,
+        name: `images`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
         path: `${__dirname}/content/blog`,
         name: `blog`,
       },
@@ -22,10 +29,11 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/content/images`,
-        name: `images`,
+        path: `${__dirname}/content/pages`,
+        name: `pages`,
       },
     },
+    `gatsby-transformer-remark`,
     {
       resolve: `gatsby-transformer-remark`,
       options: {
