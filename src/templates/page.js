@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import Helmet from 'react-helmet'
 import { graphql } from 'gatsby'
 import Layout from "../components/layout"
-import SEO from '../components/SEO'
 import config from '../../data/Config'
 
 export default class PageTemplate extends Component {
@@ -17,7 +16,6 @@ export default class PageTemplate extends Component {
 
     return (
       <Layout title={config.siteTitle}>
-        <SEO postPath={slug} postNode={postNode} postSEO />
         <div className="container">
           <article>
             <header className="page-header">

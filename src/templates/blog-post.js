@@ -2,7 +2,6 @@ import React from "react"
 import { Link, graphql } from "gatsby"
 
 import Layout from "../components/layout"
-import SEO from "../components/seo"
 import { rhythm, scale } from "../utils/typography"
 
 export default class PostTemplate extends Component {
@@ -24,7 +23,6 @@ export default class PostTemplate extends Component {
         <Helmet>
           <title>{`${post.title} – ${config.siteTitle}`}</title>
         </Helmet>
-        <SEO postPath={slug} postNode={postNode} postSEO />
         <article className="single container">
             <div className="flex">
               <h1>{post.title}</h1>
