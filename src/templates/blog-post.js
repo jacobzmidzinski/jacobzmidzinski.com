@@ -1,8 +1,8 @@
-import React from "react"
-import { Link, graphql } from "gatsby"
+import React, { Component } from 'react'
+import { graphql } from "gatsby"
+import config from '../../data/Config'
 
 import Layout from "../components/layout"
-import { rhythm, scale } from "../utils/typography"
 
 export default class PostTemplate extends Component {
   render() {
@@ -19,29 +19,13 @@ export default class PostTemplate extends Component {
     }
 
     return (
-      <Layout>
-        <Helmet>
-          <title>{`${post.title} – ${config.siteTitle}`}</title>
-        </Helmet>
+      <Layout title={config.siteTitle}>
         <article className="single container">
             <div className="flex">
               <h1>{post.title}</h1>
-              <div className="post-meta">
-                <img src={tania} className="avatar-small" alt="Tania" />
-                <a
-                  className="github-link"
-                  href={githubLink}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Edit ✏️
-                </a>
-              </div>
-              <PostTags tags={post.tags} />
             </div>
           <div className="post" dangerouslySetInnerHTML={{ __html: postNode.html }} />
         </article>
-        <UserInfo config={config} />
       </Layout>
     )
   }

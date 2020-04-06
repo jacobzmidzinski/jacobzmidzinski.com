@@ -1,7 +1,7 @@
 ---
 title: New beginnings
 slug: new-beginnings
-template: page
+template: post
 ---
 
 Far far away, behind the word mountains, far from the countries Vokalia and

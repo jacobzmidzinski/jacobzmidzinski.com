@@ -1,7 +1,7 @@
 ---
 title: hello world
 slug: hello-world
-template: page
+template: post
 ---
 
 This is my first post on my new fake blog! How exciting!

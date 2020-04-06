@@ -1,7 +1,7 @@
 ---
 title: My second post
 slug: my-second-post
-template: page
+template: post
 ---
 
 Wow! I love blogging so much already.
