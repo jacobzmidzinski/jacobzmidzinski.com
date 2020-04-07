@@ -23,7 +23,7 @@ output:
 - 🌏 I travel as much as I can,
 - 🏔 I'm passionate about hiking & mountaineering,
 - 🧗🏼‍♂️ I climbs two or three times a week,
-- ☕️ I drink hectoliters of coffee,
+- ☕️ I drink hectoliters of coffee (a day)
 
 ### Portfolio
 
