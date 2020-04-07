@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import { graphql } from 'gatsby'
 import Layout from "../components/layout"
+import SEO from "../components/seo"
+
 import config from '../../data/Config'
 
 export default class PageTemplate extends Component {
@@ -15,6 +17,7 @@ export default class PageTemplate extends Component {
 
     return (
       <Layout title={config.siteTitle}>
+        <SEO />
         <div className="container">
           <article>
             <header className="page-header">

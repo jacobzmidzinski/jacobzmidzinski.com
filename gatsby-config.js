@@ -6,7 +6,7 @@ module.exports = {
       summary: `Team Leader and Mobile Developer`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://jacobs-blog-project.firebaseapp.com/`,
+    siteUrl: `https://jacobzmidzinski.com`,
     twitter: `https://twitter.com/jacobzmidzinski`
   },
   plugins: [

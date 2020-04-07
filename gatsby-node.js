@@ -44,15 +44,15 @@ exports.createPages = async ({ graphql, actions }) => {
       })
     }
 
-    if (edge.node.frontmatter.template === 'post') {
-      createPage({
-        path: edge.node.fields.slug,
-        component: blogPost,
-        context: {
-          slug: edge.node.fields.slug,
-        },
-      })
-    }
+    // if (edge.node.frontmatter.template === 'post') {
+    //   createPage({
+    //     path: edge.node.fields.slug,
+    //     component: blogPost,
+    //     context: {
+    //       slug: edge.node.fields.slug,
+    //     },
+    //   })
+    // }
   })
 }
 
