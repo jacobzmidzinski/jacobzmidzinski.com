@@ -28,7 +28,8 @@ output:
 ### Portfolio
 
 - [Trailers Database](https://apps.apple.com/pl/app/trailers-database/id1393732085) – lets you watch latest Movie and TV Show trailers! Now, also in Dark Mode! 🌗
-- [droidDev.news](https://appdistribution.firebase.dev/i/qn7ktSbP) – Android developer hub with news and events 👨🏼‍💻(currently I'm working on Android version on the app, but I also plan to develop iOS version). If you want to be an alpha tester of the app, just click in the link and sign-up 🧑🏼‍🚀
+- [droidDevNews](https://play.google.com/store/apps/details?id=com.jacobzmidzinski.droiddevnews) – Android developer hub with news and events 👨🏼‍💻(currently I'm working on Android version on the app, but I also plan to develop iOS version). App is already released on Google Play - feel free to use it! 🧑🏼‍🚀
+- [droidDevNews - database](https://github.com/jacobzmidzinski/droidDevNews-database) - The idea behind droidDevNews is to create a place for Android Developers, where they can find interesting articles, podcasts and videos, curated by other developers. Updated daily, thanks to the community. droidDevNews-database is place, where community can contribute.
 
 
 # ---  👷🏼‍♂️ 🚧 WORK IN PROGRESS 🚧 👷🏼‍♂️ ---
