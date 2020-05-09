@@ -14,5 +14,7 @@ output:
 
 # Wiki
 
-- [Projects:](https://jacobzmidzinski.com/wiki/projects)
-- [Podcasts:](https://jacobzmidzinski.com/wiki/podcasts)
+- [Projects:](/wiki/projects) list of projects that I was or I'm currently working on
+- [Podcasts:](/wiki/podcasts) list of podcasts that I appreciate listening
+
+# ---  👷🏼‍♂️ 🚧 WORK IN PROGRESS 🚧 👷🏼‍♂️ ---

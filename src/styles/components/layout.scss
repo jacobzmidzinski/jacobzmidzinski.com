@@ -1,50 +1,90 @@
 .page-header {
-
   h1:empty {
     border-bottom-color: hsla(0, 0%, 0%, 0.07);
     border-bottom-width: 1px;
   }
 }
 
-.footer {
-    margin-top: 2.5rem;
+.nav-container {
+  height: 0px;
+  max-width: 900px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: height 0.3s ease;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  justify-content: flex-end;
+  flex: 1;
+  margin: 0;
+
+  a {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     align-items: center;
-  
-    div {
-      display: flex;
-      align-items: center;
-      padding-bottom: 1.5rem;
+    font-size: 1.05rem;
+    font-weight: 400;
+    padding: 0.75rem;
+    margin: 0 0.25rem;
+    color: rgba(0, 0, 0, 0.6);
+    line-height: 1.2;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 8px;
+
+    &:hover,
+    &:active,
+    &.active {
+      color: #111;
+      background: rgba(0, 0, 0, 0.05);
     }
-  
-    strong {
-      margin-right: 1rem;
-    }
-  
-    a {
-      font-weight: 400;
-      color: rgba(0, 0, 0, 0.7);
-      display: block;
-      margin-right: 1.5rem;
-  
-      &:hover {
-        color: rgba(0, 0, 0, 0.85);
-      }
-    }
-  
-    .footer-img {
-      height: 30px;
-      width: 30px;
-      margin-bottom: 0;
+  }
+}
+
+.footer {
+  margin-top: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  div {
+    display: flex;
+    align-items: center;
+    padding-bottom: 1.5rem;
+  }
+
+  strong {
+    margin-right: 1rem;
+  }
+
+  a {
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.7);
+    display: block;
+    margin-right: 1.5rem;
+
+    &:hover {
+      color: rgba(0, 0, 0, 0.85);
     }
   }
 
-.avatar {
-    height: 64px;
-    width: 64px;
+  .footer-img {
+    height: 30px;
+    width: 30px;
     margin-bottom: 0;
+  }
+}
+
+.avatar {
+  height: 64px;
+  width: 64px;
+  margin-bottom: 0;
 }
 
 .brand {
@@ -61,14 +101,14 @@
 
     &:hover,
     &:focus {
-      color: rgba(0, 0, 0, 0.85);;
+      color: rgba(0, 0, 0, 0.85);
     }
   }
 
   .text {
     font-size: 1.35rem;
-    font-family: Helvetica Neue, 'Roboto', -apple-system, BlinkMacSystemFont, Helvetica, Arial,
-    sans-serif;
+    font-family: Helvetica Neue, "Roboto", -apple-system, BlinkMacSystemFont,
+      Helvetica, Arial, sans-serif;
     font-weight: 500;
-  } 
+  }
 }

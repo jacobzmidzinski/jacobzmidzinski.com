@@ -12,10 +12,10 @@ output:
     }
 </style>
 
-### Tech podcasts I listen:
+### Tech podcasts I like:
 
 [Fragmented - An Android Developer Podcast](https://fragmentedpodcast.com/)
 
-### Tech podcasts I cannot wait for:
-
 [The Firebase Podcast](https://open.spotify.com/show/6V6ILtEqW2v9ZNdniNEy9l)
+
+# ---  👷🏼‍♂️ 🚧 WORK IN PROGRESS 🚧 👷🏼‍♂️ ---
