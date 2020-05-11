@@ -34,4 +34,11 @@ Developed and maintained OTT mobile application on iOS and Android using Xamarin
 #### Microsoft Student Partner (September 2016 - February 2018)
 As a Microsoft Student Partner and  Leader of .NET Group on Poznan University of Economics and Business, I organised regular meetings during which I taught students how to code in C# or how to use Git.
 
+## IC Solutions
+
+## IT Generator
+
+### Junior .NET Developer (April 2016 - September 2016)
+My very first work experience as a developer. At the beginning, I was an intern. I was resposible for researching & prototyping of UWP (Universal Windows Platfrom) app, based on mockups provided by customer. After that, I was backend developer. I developed a REST API backend using ASP.NET MVC for mobile application. In addition, I have also created admin panel to manage configuration and database of that app.
+
 # ---  👷🏼‍♂️ 🚧 WORK IN PROGRESS 🚧 👷🏼‍♂️ ---
