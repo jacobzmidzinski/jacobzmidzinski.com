@@ -18,7 +18,6 @@ My name is Jacob. I'm software developer from Poland. I work at Insys Video Tech
 
 I'm big fan of mobile technologies. I consider myself as a traveler, hiker, climber and of course, coffee drinker.
 
-
 # Experience
 
 ## Insys Video Technologies
