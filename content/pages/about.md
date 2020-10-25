@@ -14,19 +14,24 @@ output:
 
 # About me
 
-My name is Jacob. I'm software developer from Poland. I work at Insys Video Technologies as developer and mobile team leader.
+My name is Jacob. I'm software engineer from Poland. I'm currently working at Trade Republic, a Berlin-based fintech startup as Android Engineer.
 
 I'm big fan of mobile technologies. I consider myself as a traveler, hiker, climber and of course, coffee drinker.
 
 # Experience
 
+## Trade Republic
+Germany's first mobile and commission-free broker
+
+#### Android Engineer (since October 2020)
+
 ## Insys Video Technologies
 Insys Video Technologies is one of the fastest-developing video integration companies in Europe, offering comprehensive implementation of OTT projects. For over a decade, Insys has implemented online video projects for satellite providers, telecommunications operators, television broadcasters and motion picture distributors.
 
-#### Mobile Team Leader (since July 2019)
+#### Mobile Team Leader (July 2019 - September 2020)
 Leading and coordinating a team of 8 developers, responsible for delivering a high quality apps on Android, Android TV, iOS and tvOS.
 
-#### Mobile Developer (since March 2017)
+#### Mobile Developer (March 2017 - September 2020)
 Developed and maintained OTT mobile application on iOS and Android using Xamarin.Forms, Android TV app using Xamarin.Android and Apple TV app using Xamarin.iOS.
 
 ## Microsoft
