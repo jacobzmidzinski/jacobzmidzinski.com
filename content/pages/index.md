@@ -22,13 +22,14 @@ output:
 
 ### [About me](/about)
 
-- 👨🏼‍💻 I work full-time as a mobile team leader and developer,
+- 👨🏼‍💻 I work full-time as Android Engineer in Berlin
 - 📱 I'm great fan of mobile and...
 - 💡 smart home technologies,
 - 🛠 I'm crazy about my desk setup,
 - 🌏 I travel as much as I can,
 - 🏔 I'm passionate about hiking & mountaineering,
-- 🧗🏼‍♂️ I climb two or three times a week,
+- 🧗🏼‍♂ I love bouldering,
+- 🚴🏼 I train for my first Ironman 70.3,
 - ☕️ I drink hectoliters of coffee (a day)
 
 ### [Projects](/wiki/projects)
