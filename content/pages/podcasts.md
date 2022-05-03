@@ -13,10 +13,13 @@ output:
 
 </style>
 
-### Tech podcasts I like:
+### Podcasts I like:
 
-[Fragmented - An Android Developer Podcast](https://fragmentedpodcast.com/)
+- [Huberman Lab](https://hubermanlab.com/)
 
-[The Firebase Podcast](http://firebasepodcast.googledevelopers.libsynpro.com/)
+- [The Bare Performance Podcast](https://bareperformancepodcast.libsyn.com/)
 
-[Mobile DevOps is a thing!](https://blog.bitrise.io/tags/podcast)
+- [Sweat Elite Podcast](https://www.sweatelite.co/podcast/)
+
+- [Fragmented - An Android Developer Podcast](https://fragmentedpodcast.com/)
+
