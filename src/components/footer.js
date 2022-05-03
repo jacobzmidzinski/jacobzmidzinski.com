@@ -50,7 +50,7 @@ export default class SocialFooter extends Component {
           </a>
           <a
             target="__blank"
-            href="https://www.strava.com/athletes/63410226"
+            href="https://www.strava.com/athletes/jzmidzinski"
             title="Strava"
             sx={{
               ml: 2,
