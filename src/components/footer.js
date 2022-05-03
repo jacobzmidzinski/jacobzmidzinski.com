@@ -4,6 +4,7 @@ import {
   FaTwitter as Twitter,
   FaGithub as GitHub,
   FaLinkedin as LinkedIn,
+  FaStrava as Strava
 } from "react-icons/fa"
 
 export default class SocialFooter extends Component {
@@ -47,9 +48,21 @@ export default class SocialFooter extends Component {
           >
             <Twitter size={24} />
           </a>
+          <a
+            target="__blank"
+            href="https://www.strava.com/athletes/63410226"
+            title="Strava"
+            sx={{
+              ml: 2,
+              mr: 3,
+              variant: "styles.navitem",
+            }}
+          >
+            <Strava size={24} />
+          </a>
         </div>
         <div>
-          <p>Copyright © Jacob Zmidzinski, 2020</p>
+          <p>Copyright © Jakub Zmidzinski, 2022</p>
         </div>
       </footer>
     )

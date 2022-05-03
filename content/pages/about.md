@@ -14,22 +14,33 @@ output:
 
 # About me
 
-My name is Jacob. I'm software engineer from Poland. I'm currently working at Trade Republic, a Berlin-based fintech startup as Android Engineer.
+My name is Jakub. I'm a software engineer living in Berlin. I'm currently working at SumUp, as Android Engineer.
 
-I'm big fan of mobile technologies. I consider myself as a traveler, hiker, climber and of course, coffee drinker.
+I spend most of my free time running around beautiful Tiergarten, trying to gather more knowledge about training plans, watching a review of yet another Super Shoe, or foam rolling (I wish 🥲).
+
+My personal bests:
+- Half-marathon:    01:27:36 ⚡️
+- Marathon:         03:09:19 ⚡️
+- Ironman 70:3:     05:36:31 ⚡️
+
+I consider myself a coffee lover or even an aspiring barista but I'm still struggling with the ideal latte art on my Flat White. 
 
 # Experience
+
+## SumUp
+
+#### Android Engineer (since November 2021)
 
 ## Trade Republic
 Germany's first mobile and commission-free broker
 
-#### Android Engineer (since October 2020)
+#### Android Engineer (October 2020 - October 2021)
 
 ## Insys Video Technologies
-Insys Video Technologies is one of the fastest-developing video integration companies in Europe, offering comprehensive implementation of OTT projects. For over a decade, Insys has implemented online video projects for satellite providers, telecommunications operators, television broadcasters and motion picture distributors.
+Insys Video Technologies is one of the fastest-developing video integration companies in Europe, offering comprehensive implementation of OTT projects. For over a decade, Insys has implemented online video projects for satellite providers, telecommunications operators, television broadcasters, and motion picture distributors.
 
 #### Mobile Team Leader (July 2019 - September 2020)
-Leading and coordinating a team of 8 developers, responsible for delivering a high quality apps on Android, Android TV, iOS and tvOS.
+Leading and coordinating a team of 8 developers, responsible for delivering high-quality apps on Android, Android TV, iOS, and tvOS.
 
 #### Mobile Developer (March 2017 - September 2020)
 Developed and maintained OTT mobile application on iOS and Android using Xamarin.Forms, Android TV app using Xamarin.Android and Apple TV app using Xamarin.iOS.
@@ -37,7 +48,7 @@ Developed and maintained OTT mobile application on iOS and Android using Xamarin
 ## Microsoft
 
 #### Microsoft Student Partner (September 2016 - February 2018)
-As a Microsoft Student Partner and Leader of .NET Group on Poznan University of Economics and Business, I organised regular meetings during which I taught students how to code in C# or how to use Git. I was responsible for organizing annual conference, IT Academic Day. Thanks to that, I was able to learn how to find speakers, sponsors and partners for these kind of events.
+As a Microsoft Student Partner and Leader of the .NET Group at Poznan University of Economics and Business, I organized regular meetings during which I taught students how to code in C# or how to use Git. I was responsible for organizing the annual conference, IT Academic Day. Thanks to that, I was able to learn how to find speakers, sponsors, and partners for these kinds of events.
 
 ## IC Solutions
 
@@ -47,4 +58,4 @@ My main responsibility was maintaining a desktop application, for document manag
 ## IT Generator
 
 ### Junior .NET Developer (April 2016 - September 2016)
-My very first work experience as a developer. At the beginning, I was an intern. I was resposible for researching & prototyping of UWP (Universal Windows Platfrom) app. After that, I was a backend developer. I developed a REST API backend using ASP.NET MVC for mobile application. In addition, I have also created admin panel to manage configuration and database of that app.
+My very first work experience as a developer. In the beginning, I was an intern. I was responsible for researching & prototyping of UWP (Universal Windows Platform) app. After that, I was a backend developer. I developed a REST API backend using ASP.NET MVC for mobile applications. In addition, I have also created an admin panel to manage the configuration and database of that app.

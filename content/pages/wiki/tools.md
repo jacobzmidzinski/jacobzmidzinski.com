@@ -15,9 +15,10 @@ template: page
 
 ### Desk setup
 
-- 💻 13-inch MacBook Pro 2019
-- 📦 rain design mStand
-- 🎧 Bose QC 35
-- 🖱 Logitech M590
+- 💻 M1 Mac Mini
+- 📂 iPad Air (4th gen)
+- ✏️ Apple Pencil (2nd gen)
+- 🎧 Bose QC 35 / AirPods Pro
+- 🖱 Logitech MX Master 3
 - ⌨️ Logitech Craft
-- 🗿 Google Home speaker 
+- 🗿 Homepod Mini
