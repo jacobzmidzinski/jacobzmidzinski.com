@@ -19,8 +19,9 @@ My name is Jakub. I'm a software engineer living in Berlin. I'm currently workin
 I spend most of my free time running around beautiful Tiergarten, trying to gather more knowledge about training plans, watching a review of yet another Super Shoe, or foam rolling (I wish 🥲).
 
 My personal bests:
-- Half-marathon:    01:27:36 ⚡️
-- Marathon:         03:09:19 ⚡️
+- 10K:              00:37:21 ⚡️
+- Half-marathon:    01:23:51 ⚡️
+- Marathon:         02:56:12 ⚡️
 - Ironman 70:3:     05:36:31 ⚡️
 
 I consider myself a coffee lover or even an aspiring barista but I'm still struggling with the ideal latte art on my Flat White. 
