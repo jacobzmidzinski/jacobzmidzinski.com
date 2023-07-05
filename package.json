@@ -41,7 +41,7 @@
     "typography-theme-github": "^0.16.19"
   },
   "devDependencies": {
-    "firebase-tools": "^7.16.1",
+    "firebase-tools": "^12.4.2",
     "prettier": "^1.19.1"
   },
   "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
