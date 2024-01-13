@@ -14,13 +14,13 @@ output:
 
 # About me
 
-My name is Jakub. I'm a software engineer living in Berlin. I'm currently working at SumUp, as Android Engineer.
+My name is Jakub. I'm a software engineer living in Berlin. I'm currently working at SumUp, as a Senior Android Engineer.
 
 I spend most of my free time running around beautiful Tiergarten, trying to gather more knowledge about training plans, watching a review of yet another Super Shoe, or foam rolling (I wish 🥲).
 
 My personal bests:
 - 10K:              00:37:21 ⚡️
-- Half-marathon:    01:23:51 ⚡️
+- Half-marathon:    01:20:40 ⚡️
 - Marathon:         02:56:12 ⚡️
 - Ironman 70:3:     05:36:31 ⚡️
 
@@ -30,7 +30,7 @@ I consider myself a coffee lover or even an aspiring barista but I'm still strug
 
 ## SumUp
 
-#### Android Engineer (since November 2021)
+#### Senior Android Engineer (since November 2021)
 
 ## Trade Republic
 Germany's first mobile and commission-free broker
