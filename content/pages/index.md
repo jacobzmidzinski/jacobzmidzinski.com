@@ -22,12 +22,13 @@ output:
 
 ### [About me](/about)
 
-- 👨🏼‍💻 I work full-time as Android Engineer in Berlin
-- 📱 I'm great fan of mobile and...
+- 👨🏼‍💻 I work full-time as Senior Android Engineer in Berlin
+- 📱 I'm a great fan of mobile and...
 - 💡 smart home technologies,
+- 🥋 I train Brazilian Jiu-Jitsu,
 - 🛠 I'm crazy about my desk setup,
-- 🏃‍♂️ My next running goal is to break 3 hours in the Marathon,
-- 👨🏼‍🏫 I'm wannabe running coach,
+- 🏃‍♂️ I ran 5 marathons (with 2:56 personal best from Tokyo 🇯🇵),
+- 🚴 I love climbing and descending on my road bike,
 - 🌏 I travel as much as I can,
 - 🏔 I'm passionate about hiking & mountaineering,
 - 🏀 I love basketball,
